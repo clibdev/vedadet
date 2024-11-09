@@ -133,7 +133,7 @@ def _load_checkpoint(filepath, map_location=None):
     else:
         if not osp.isfile(filepath):
             raise IOError(f'{filepath} is not a file')
-        checkpoint = torch.load(filepath, map_location=map_location)
+        checkpoint = torch.load(filepath, map_location=map_location, weights_only=True)
     return checkpoint
 
 

@@ -103,7 +103,7 @@ infer_engine = dict(
     use_sigmoid=use_sigmoid)
 
 # 4. weights
-weights = dict(filepath='your/weight/file/path')
+weights = dict(filepath='./tinaface-r50-fpn-bn.pt')
 
 # 5. show
 class_names = ('face', )

@@ -137,3 +137,9 @@ eval_dirs/
 nohup.out
 
 tools/eval_widerface
+
+.idea
+cuda-runtime
+out.jpg
+*.onnx
+*.pt
